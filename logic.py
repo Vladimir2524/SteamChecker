@@ -254,10 +254,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FILE_PATH = os.path.join(BASE_DIR, "scam_words")
 
 # Дебагинг ( мало-ли ошибки )
-print("--- ОТЛАДКА ПУТИ ---")
-print("Python ищет файл тут:", FILE_PATH)
-print("Файл реально существует?", os.path.exists(FILE_PATH))
-print("--------------------")
+# print("--- ОТЛАДКА ПУТИ ---")
+# print("Python ищет файл тут:", FILE_PATH)
+# print("Файл реально существует?", os.path.exists(FILE_PATH))
+# print("--------------------")
 
 # Простое лобби которое крутит пока есть айди стима и показывает что делается
 if __name__ == "__main__":
